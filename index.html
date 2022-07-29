@@ -135,6 +135,13 @@
                     <input type="checkbox" id="sauna" name="extras" value="Sauna"> 
                     <label for="sauna">Sauna</label>
                 </div>
+            <fieldset>
+                <legend>Create a Passcode</legend>
+                <label>Your Secret Code<span class="required-field">*</span></label>
+                <input type="password" id="password" name="password"
+                title="6 Alphanumeric Character Passcode"
+                pattern="[A-Za-z0-9]{6}" required>
+            </fieldset>
                 
             </fieldset>
             <!-- TODO: Submit Button -->
